@@ -6,5 +6,13 @@ namespace griselda
 {
     class Class2
     {
+        string _name;
+
+        public GriseldaMembers(string name)
+        {
+            _name = name;
+
+            haveBars = true;
+        }
     }
 }
